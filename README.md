@@ -18,9 +18,9 @@ We extracted the average household income from Census.gov, and we retrieved the 
 3) https://geo.fcc.gov/api/census/#!/area/get_area
 
 ## TRANSFORM PROCESS:
-After extracting all data sources, we then transformed the datasets in order to be able to link the datasets together and discard any irrelevant data as follows:
+After extracting all data sources, we then transformed the data sets in order to be able to link the data sets together and discard any irrelevant data as follows:
 
-1) We generated an API call from the FCC website using the latitude and longitude as input in order to extract the State FIPS codes as well as other fields (County FIPS, County Name, State Code and State Name) to join the Census and Restaurant datasets together. 
+1) We generated an API call from the FCC website using the latitude and longitude as input in order to extract the State FIPS codes as well as other fields (County FIPS, County Name, State Code and State Name) to join the Census and Restaurant data sets together. 
 
 2) We removed the duplicate header row, renamed columns, and reset the index and sorted by the State FIPS code from the Census data.  The State FIPS code was the unique primary key needed to join both data sets.
 
@@ -33,4 +33,4 @@ Our final process was to load the cleaned data into Postgres by creating the sch
 :--------------------------------------:|
 Entity Relationship Diagram (ERD)|
 
-After uploading the above schema into PostGres, we loaded our data sets into two tables for Census data and Restaurants.  Finally, we queried the two tables by joining them by State FIPS codes.  
+After uploading the above schema into PostGres, we loaded our data sets into two tables for Census data and Restaurants.  Finally, we queried the two tables by joining them by State FIPS codes.
