@@ -1,5 +1,10 @@
 # ETL PROJECT
 
+## TEAM MEMBERS:
+TJ Jaramillo\
+Darlene Ko\
+Florin Vasiliu
+
 ## OBJECTIVE:
 The purpose of our project was to extract two different data sets from two independent sources to understand the relationship (if any) between the average household income and the number of fast food restaurants throughout the United States. 
 
