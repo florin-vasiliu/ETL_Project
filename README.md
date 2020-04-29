@@ -28,3 +28,5 @@ Our final process was to load the cleaned data into Postgres by creating the sch
 <img src=3.Load/QuickDBD-ETL_project_ERD.png >|
 :--------------------------------------:|
 Entity Relationship Diagram (ERD)|
+
+After uploading the above schema into PostGres, we loaded our data sets into two tables for Census data and Restaurants.  Finally, we queried the two tables by joining them by State FIPS codes.  
