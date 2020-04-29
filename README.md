@@ -1,6 +1,6 @@
-# ETL_Project
+# ETL PROJECT
 
-## OBJECTIVE
+## OBJECTIVE:
 The purpose of our project was to extract two different data sets from two independent sources to understand the relationship (if any) between the average household income and the number of fast food restaurants throughout the United States. 
 
 
@@ -8,7 +8,9 @@ The purpose of our project was to extract two different data sets from two indep
 We extracted the average household income from Census.gov and we retrieved the number of fast food restaurants from Data World.  In order to join these two data sets by a common key, a list of State FIPS codes was obtained from a third data set from the FCC website using the given latitude and logitude for each fast-food restaurant.  See links below for our three data sets:
 
 1) https://api.census.gov/data.html
+
 2) https://data.world/datafiniti/fast-food-restaurants-across-america/workspace/file?filename=Datafiniti_Fast_Food_Restaurants.csv
+
 3) https://geo.fcc.gov/api/census/#!/area/get_area
 
 ## TRANSFORM PROCESS:
