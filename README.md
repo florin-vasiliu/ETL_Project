@@ -25,3 +25,4 @@ After extracting all data sources, we then transformed the datasets in order to 
 ## LOAD PROCESS:
 Our final process was to load the cleaned data into Postgres by creating the schema utilizing the Quick Database Diagrams as depicted below.
 
+<img src=3.Load/QuickDBD-ETL_project_ERD.png >|
