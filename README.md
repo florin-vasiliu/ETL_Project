@@ -22,3 +22,6 @@ After extracting all data sources, we then transformed the datasets in order to 
 
 3) We selected 6 out of the total 21 columns from the restaurant data and renamed some of the columns.
 
+## LOAD PROCESS:
+Our final process was to load the cleaned data into Postgres by creating the schema utilizing the Quick Database Diagrams as depicted below.
+
