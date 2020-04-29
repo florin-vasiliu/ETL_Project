@@ -20,7 +20,7 @@ We extracted the average household income from Census.gov, and we retrieved the 
 ## TRANSFORM PROCESS:
 After extracting all data sources, we then transformed the datasets in order to discard the irrelevant data as follows:
 
-1) We generated an API call from the FCC website using the latitude and longitude as input in order to extract the State FIPS codes to join the two datasets together.
+1) We generated an API call from the FCC website using the latitude and longitude as input in order to extract the State FIPS codes as well as other fields (County FIPS, County Name, State Code and State Name) to join the Census and Restaurant datasets together. 
 
 2) We removed the duplicate header row, renamed columns, and reset the index and sorted by the State FIPS code from the Census data.  The State FIPS code was the unique primary key needed to join both data sets.
 
