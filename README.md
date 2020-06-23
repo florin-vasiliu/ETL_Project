@@ -33,7 +33,7 @@ Our final process was to load the cleaned data into Postgres by creating the sch
 :--------------------------------------:|
 Entity Relationship Diagram (ERD)|
 
-After uploading the above schema into PostGres, we loaded our data sets into two tables for Census data and Restaurants.  Finally, we queried the two tables by joining them by State FIPS codes.
+After uploading the above schema into PostgreSQL, we loaded our data sets into two tables for Census data and Restaurants.  Finally, we queried the two tables by joining them by State FIPS codes.
 
 ## CONCLUSION:
 In summary, our data is now ready for future analysis to determine if there is any correlation between household income and the number of fast food restaurants per area.
