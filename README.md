@@ -6,7 +6,7 @@ Darlene Ko\
 Florin Vasiliu
 
 ## OBJECTIVE:
-The purpose of our project was to extract two different data sets from two independent sources to understand the relationship (if any) between the average household income and the number of fast food restaurants throughout the United States. 
+The purpose of our project was to extract different data sets from two independent sources to understand the relationship (if any) between the average household income and the number of fast food restaurants throughout the United States. 
 
 ## EXTRACTION PROCESS:
 We extracted the average household income from Census.gov, and we retrieved the number of fast food restaurants from Data World.  The Census data represented the estimated median household income and benefits (in 2018 inflation-adjusted U.S. Dollars).  There was a total of 10,000 fast food restaurants provided by Datafiniti's Business Database which included the restaurant's address, city, latitude and longitude coordinates, names, etc. from December 2018 through May 2019.  In order to join these two data sets by a common key, a list of State FIPS codes was obtained from a third data set from the FCC website using the given latitude and logitude for each fast-food restaurant.  See links below for our three data sets:
